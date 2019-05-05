@@ -21,7 +21,7 @@ class MusicLibraryController
   end     #def 
    
   def list_songs 
-     Song.all.sort.each_with_index{||}
+     Song.all.sort.each_with_index{|song, index|}
   end     #def 
    
 end 
